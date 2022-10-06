@@ -14,7 +14,7 @@ export interface Post {
 export interface TwitterMetadata {
 	avatar_url: string;
 	email: string;
-	email_verified: true;
+	email_verified: boolean;
 	full_name: string;
 	iss: string;
 	name: string;
@@ -24,3 +24,5 @@ export interface TwitterMetadata {
 	sub: string;
 	user_name: string;
 }
+
+export type { SupabaseSessionWithUser } from './definitions/user-with-twitter-metadata';

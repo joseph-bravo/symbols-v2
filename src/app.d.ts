@@ -1,9 +1,9 @@
 declare namespace App {
 	interface Locals {
-		session: import('@supabase/auth-helpers-sveltekit').SupabaseSession;
+		session: import('$lib/interfaces').SupabaseSessionWithUser;
 	}
 	interface PageData {
-		session: import('@supabase/auth-helpers-sveltekit').SupabaseSession;
+		session: import('$lib/interfaces').SupabaseSessionWithUser;
 	}
 	// interface Error {}
 	// interface Platform {}

@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@playwright/test': ^1.25.0
+  '@supabase/auth-helpers-shared': ^0.1.4
   '@supabase/auth-helpers-svelte': ^0.4.6
   '@supabase/auth-helpers-sveltekit': ^0.7.1
   '@supabase/storage-js': ^1.7.3
@@ -43,8 +44,9 @@ dependencies:
 
 devDependencies:
   '@playwright/test': 1.26.1
+  '@supabase/auth-helpers-shared': 0.1.4
   '@sveltejs/adapter-auto': 1.0.0-next.80
-  '@sveltejs/kit': 1.0.0-next.510_svelte@3.50.1+vite@3.1.4
+  '@sveltejs/kit': 1.0.0-next.511_svelte@3.50.1+vite@3.1.4
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
   '@typescript-eslint/eslint-plugin': 5.39.0_xyciw6oqjoiiono4dhv3uhn5my
   '@typescript-eslint/parser': 5.39.0_ypn2ylkkyfa5i233caldtndbqa
@@ -224,7 +226,6 @@ packages:
     resolution: {integrity: sha512-5jsy8pxrdFIBjcpGWihBb1gsiK2WMO8lKKnNlrZCgAzTdC/rZHVnYs7zK8yaLyoHidLfp6N5ZnocJUm7ZKSABQ==}
     dependencies:
       jose: 4.10.0
-    dev: false
 
   /@supabase/auth-helpers-svelte/0.4.6:
     resolution: {integrity: sha512-q6KaEDGSaX5XpBXGRwjrwJKYvheTRbpJMWCQBoulQHfc6VqTthqWfpHyDCZmU54sTf/DySm8NDDdLEW6rDOgDw==}
@@ -337,8 +338,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.510_svelte@3.50.1+vite@3.1.4:
-    resolution: {integrity: sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==}
+  /@sveltejs/kit/1.0.0-next.511_svelte@3.50.1+vite@3.1.4:
+    resolution: {integrity: sha512-A/fxd4qHWDD07Mjo6qEEEfsBEkoj5C4/dPSzx6xPUoWmPvRPhU8t+P0oMc8BOn5YHOhPDq3coH8bmafbh73zKg==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -1837,7 +1838,6 @@ packages:
 
   /jose/4.10.0:
     resolution: {integrity: sha512-KEhB/eLGLomWGPTb+/RNbYsTjIyx03JmbqAyIyiXBuNSa7CmNrJd5ysFhblayzs/e/vbOPMUaLnjHUMhGp4yLw==}
-    dev: false
 
   /js-sdsl/4.1.5:
     resolution: {integrity: sha512-08bOAKweV2NUC1wqTtf3qZlnpOX/R2DU9ikpjOHs0H+ibQv3zpncVQg6um4uYtRtrwIX8M4Nh3ytK4HGlYAq7Q==}
