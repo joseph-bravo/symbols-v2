@@ -25,7 +25,7 @@ export default function renderSar(sar: SymbolArt): Promise<string> {
 
 		const resolution = 4;
 
-		app.loader.add('spritesheet', '../spritesheet.json').load(() => {
+		app.loader.add('spritesheet', '/assets/spritesheet.json').load(() => {
 			const container = new PIXI.Container();
 			app.stage.addChild(container);
 

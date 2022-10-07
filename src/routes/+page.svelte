@@ -13,3 +13,4 @@
 
 <a href="/" class="btn">Home</a>
 <a href="/test" class="btn">test</a>
+<a href="/render" class="btn">render</a>
