@@ -2,7 +2,7 @@ import { BlowfishContext } from './parser/blowfish';
 import { sarSchema } from './parser/sarstruct';
 import struct from './parser/struct';
 import prs from './parser/prs';
-import type { SymbolArt } from '../types';
+import type { SymbolArt } from './types';
 
 /**
  * Process raw `.sar` files

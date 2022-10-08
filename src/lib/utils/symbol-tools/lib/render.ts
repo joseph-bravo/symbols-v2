@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 import { Sprite2d } from 'pixi-projection';
 import convertRGBtoHex from './rgb-to-hex';
-import type { SymbolArt } from '../types';
+import type { SymbolArt } from './types';
 import type { Texture } from 'pixi.js';
 
 /**
